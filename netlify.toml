@@ -95,7 +95,7 @@
 
 [[redirects]]
   from = "/404"
-  to = "https://dahisea.github.io/GF-WWW/"
+  to = "https://thepage-gfork.zh-hk.eu.org/404"
   status = 200
   force = true
 
