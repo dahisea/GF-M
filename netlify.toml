@@ -1,0 +1,238 @@
+[[redirects]]
+  from = "/"
+  to = "https://thepage-gfork.zh-hk.eu.org/"
+  status = 200
+  
+[[redirects]]
+  from = "/zh-hans/discussions*"
+  to = "/zh-hans"
+  status = 307
+  
+[[redirects]]
+  from = "/en/discussions*"
+  to = "/zh-hans"
+  status = 307
+  
+[[redirects]]
+  from = "/ja/discussions*"
+  to = "/zh-hans"
+  status = 307
+  
+[[redirects]]
+  from = "/zh-hans/users*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/en/users*"
+  to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/ja/users*"
+  to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/*/moderator_actions*"
+  to = "/zh-hans"
+  status = 307
+  force = true
+  
+[[redirects]]
+  from = "/zh-hans"
+  to = "https://thepage-gfork.zh-hk.eu.org/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/"
+  to = "/zh-hans"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/ja"
+  to = "https://thepage-gfork.zh-hk.eu.org/ja"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ja/"
+  to = "/ja"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/en"
+  to = "https://thepage-gfork.zh-hk.eu.org/en"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en/"
+  to = "/en"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-CN"
+  to = "/zh-hans"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/robots.txt"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/ads.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/404"
+  to = "https://dahisea.github.io/GF-WWW/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/page/applist"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/page/tos"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/tos"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*/help/installing-user-scripts"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/installing-user-scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*/search"
+  to = "https://thepage-gfork.zh-hk.eu.org/search"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rails/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/ja/scripts"
+  to = "https://xdrcgfn.dahi.edu.eu.org/ja/scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/en/scripts"
+  to = "https://xdrcgfn.dahi.edu.eu.org/en/scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/zh-hans/scripts"
+  to = "https://cdn-sg-dev-static.greasyfork.org.cn/p/7802734A-77AA-4094-97CD-6C8E4FFB1937"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/scripts/by-site/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/scripts/by-site/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/ja/scripts/*"
+  to = "https://gfork.zh-hk.eu.org/ja/scripts/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/en/scripts/*"
+  to = "https://gfork.zh-hk.eu.org/en/scripts/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/scripts/*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
+  status = 307
+  force = true
+  
+[[redirects]]
+  from = "/ja/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/ja/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/en/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/zh-hant/*"
+  to = "/zh-hans/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/zh-TW/*"
+  to = "/zh-hans/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/zh-CN/*"
+  to = "/zh-hans/:splat"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/redirect/to"
+  to = "https://thepage-gfork.zh-hk.eu.org/redirect/to"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/redirect/"
+  to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*"
+  to = "https://thepage-gfork.zh-hk.eu.org/:splat"
+  status = 200
+  force = true
