@@ -142,20 +142,8 @@
   force = true
   
 [[redirects]]
-  from = "/ja/scripts"
-  to = "https://xdrcgfn.dahi.edu.eu.org/ja/scripts"
-  status = 200
-  force = true
-  
-[[redirects]]
-  from = "/en/scripts"
-  to = "https://xdrcgfn.dahi.edu.eu.org/en/scripts"
-  status = 200
-  force = true
-  
-[[redirects]]
-  from = "/zh-hans/scripts"
-  to = "https://cdn-sg-dev-static.greasyfork.org.cn/p/7802734A-77AA-4094-97CD-6C8E4FFB1937"
+  from = "/*/scripts"
+  to = "/404"
   status = 307
   force = true
 
