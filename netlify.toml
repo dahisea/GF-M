@@ -128,6 +128,12 @@
   to = "https://thepage-gfork.zh-hk.eu.org/search"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "/*/help"
+  to = "https://thepage-gfork.zh-hk.eu.org/help"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/rails/*"
