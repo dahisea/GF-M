@@ -220,7 +220,7 @@
   force = true
 
 [[redirects]]
-  from = "/zh-tw/*"
+  from = "/zh-cn/*"
   to = "/zh-hans/:splat"
   status = 308
   force = true
