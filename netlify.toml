@@ -41,7 +41,7 @@
   
 [[redirects]]
   from = "/zh-hans"
-  to = "https://thepage-gfork.zh-hk.eu.org/"
+  to = "https://thepage-gfork.zh-hk.eu.org/hans"
   status = 200
   force = true
 
