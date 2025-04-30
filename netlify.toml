@@ -21,17 +21,17 @@
 [[redirects]]
   from = "/zh-hans/users*"
   to = "https://gfork.zh-tw.eu.org/zh-hans/users/:splat"
-  status = 308
+  status = 307
   
 [[redirects]]
   from = "/en/users*"
   to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
-  status = 308
+  status = 307
   
 [[redirects]]
   from = "/ja/users*"
   to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
-  status = 308
+  status = 307
   
 [[redirects]]
   from = "/*/moderator_actions*"
@@ -102,7 +102,7 @@
 [[redirects]]
   from = "/favicon.ico"
   to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
-  status = 308
+  status = 200
   force = true
 
 [[redirects]]
