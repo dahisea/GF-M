@@ -155,8 +155,8 @@
 
 [[redirects]]
   from = "/zh-hans/scripts/by-site/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/scripts/by-site/:splat"
-  status = 200
+  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/by-site/:splat"
+  status = 308
   force = true
   
 [[redirects]]
