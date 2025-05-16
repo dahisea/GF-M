@@ -1,7 +1,7 @@
 [[redirects]]
   from = "/"
   to = "/zh-hans"
-  status = 301
+  status = 308
   
 [[redirects]]
   from = "/zh-hans/discussions*"
@@ -25,12 +25,12 @@
   
 [[redirects]]
   from = "/en/users*"
-  to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
+  to = "https://gfork.zh-hk.eu.org/en/users/:splat"
   status = 307
   
 [[redirects]]
   from = "/ja/users*"
-  to = "https://gfork.zh-hk.eu.org/zh-hans/users/:splat"
+  to = "https://gfork.zh-hk.eu.org/ja/users/:splat"
   status = 307
   
 [[redirects]]
@@ -48,7 +48,7 @@
 [[redirects]]
   from = "/zh-hans/"
   to = "/zh-hans"
-  status = 301
+  status = 308
   force = true
   
 [[redirects]]
@@ -60,7 +60,7 @@
 [[redirects]]
   from = "/ja/"
   to = "/ja"
-  status = 301
+  status = 308
   force = true
   
 [[redirects]]
@@ -72,13 +72,13 @@
 [[redirects]]
   from = "/en/"
   to = "/en"
-  status = 301
+  status = 308
   force = true
 
 [[redirects]]
   from = "/zh-CN"
   to = "/zh-hans"
-  status = 301
+  status = 308
   force = true
 
 [[redirects]]
