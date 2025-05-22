@@ -4,6 +4,17 @@
   status = 308
   
 [[redirects]]
+  from = "/s"
+  to = "https://thepage-gfork.zh-hk.eu.org/searchw"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
+  to = "https://dgkkhxhkj.dahi.edu.eu.org/zh-CN/scripts.json"
+  status = 200
+  
+[[redirects]]
   from = "/zh-hans/discussions*"
   to = "/zh-hans"
   status = 308
@@ -175,24 +186,6 @@
   from = "/zh-hans/scripts/*"
   to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
   status = 308
-  force = true
-  
-[[redirects]]
-  from = "/ja/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/ja/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/en/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/en/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/zh-hans/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/:splat"
-  status = 200
   force = true
 
 [[redirects]]
