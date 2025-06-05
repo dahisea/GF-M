@@ -185,7 +185,7 @@
 [[redirects]]
   from = "/*/help/installing-user-scripts"
   to = "/page/installing-user-scripts"
-  status = 200
+  status = 308
   force = true
 
 [[redirects]]
