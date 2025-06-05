@@ -189,6 +189,12 @@
   force = true
 
 [[redirects]]
+  from = "/*/help/installing-user-scripts"
+  to = "/page/installing-user-scripts"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/rails/*"
   to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
   status = 200
