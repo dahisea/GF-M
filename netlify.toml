@@ -183,14 +183,14 @@
   force = true
 
 [[redirects]]
-  from = "/*/help"
-  to = "https://thepage-gfork.zh-hk.eu.org/help"
+  from = "/*/help/installing-user-scripts"
+  to = "/page/installing-user-scripts"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/*/help/installing-user-scripts"
-  to = "/page/installing-user-scripts"
+  from = "/*/help"
+  to = "https://thepage-gfork.zh-hk.eu.org/help"
   status = 200
   force = true
 
