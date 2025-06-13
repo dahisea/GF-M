@@ -106,8 +106,8 @@
 
 [[redirects]]
   from = "/404"
-  to = "https://cdn.greasyfork.org.cn/default"
-  status = 200
+  to = "/zh-hans"
+  status = 307
   force = true
 
 [[redirects]]
@@ -208,7 +208,7 @@
 
 [[redirects]]
   from = "/*/scripts"
-  to = "/404"
+  to = "/zh-hans"
   status = 307
   force = true
 
