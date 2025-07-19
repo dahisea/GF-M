@@ -9,6 +9,11 @@
   status = 200
 
 [[redirects]]
+  from = "/redirect/"
+  to = "https://cdn.greasyfork.org.cn/redirect/"
+  status = 200
+
+[[redirects]]
   from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
   to = "https://dgkkhxhkj.dahi.edu.eu.org/zh-CN/scripts.json"
   status = 200
@@ -222,11 +227,6 @@
   from = "/zh-cn/*"
   to = "/zh-hans/:splat"
   status = 308
-
-[[redirects]]
-  from = "/redirect/"
-  to = "https://cdn.greasyfork.org.cn/redirect/"
-  status = 200
 
 [[redirects]]
   from = "/*"
