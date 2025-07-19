@@ -105,12 +105,6 @@
   force = true
 
 [[redirects]]
-  from = "/404"
-  to = "https://cdn.greasyfork.org.cn/404"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/sitemap.xml"
   to = "https://cdn.greasyfork.org.cn/sitemap.xml"
   status = 200
@@ -277,4 +271,3 @@
   to = "https://cdn.greasyfork.org.cn/404"
   status = 200
   force = true
-
