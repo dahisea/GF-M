@@ -1,38 +1,39 @@
+# 初始中文
 [[redirects]]
   from = "/"
   to = "/zh-hans"
   status = 308
 
+# 搜尋頁面
 [[redirects]]
   from = "/s"
   to = "https://cdn.greasyfork.org.cn/searchw"
   status = 200
 
+# 重新導向頁面下載
 [[redirects]]
   from = "/redirect/"
   to = "https://cdn.greasyfork.org.cn/redirect/"
   status = 200
 
+# 搜尋 API
 [[redirects]]
   from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
   to = "https://dgkkhxhkj.dahi.edu.eu.org/zh-CN/scripts.json"
   status = 200
 
+# 特別處理封禁
 [[redirects]]
-  from = "/zh-hans/discussions*"
+  from = "/*/discussions*"
   to = "/404"
   status = 308
 
 [[redirects]]
-  from = "/en/discussions*"
+  from = "/*/moderator_actions*"
   to = "/404"
   status = 308
 
-[[redirects]]
-  from = "/ja/discussions*"
-  to = "/404"
-  status = 308
-
+# 用戶子服務
 [[redirects]]
   from = "/zh-hans/users*"
   to = "https://gfork.zh-tw.eu.org/zh-hans/users/:splat"
@@ -48,11 +49,7 @@
   to = "https://gfork.zh-hk.eu.org/ja/users/:splat"
   status = 307
 
-[[redirects]]
-  from = "/*/moderator_actions*"
-  to = "/404"
-  status = 308
-
+# 主要頁面
 [[redirects]]
   from = "/zh-hans"
   to = "https://cdn.greasyfork.org.cn/hans"
@@ -88,6 +85,7 @@
   to = "/zh-hans"
   status = 308
 
+# 靜態
 [[redirects]]
   from = "/robots.txt"
   to = "https://cdn.greasyfork.org.cn/rrobots.txt"
@@ -144,18 +142,19 @@
   status = 200
 
 [[redirects]]
-  from = "/page/*"
-  to = "https://cdn.greasyfork.org.cn/page/:splat"
-  status = 200
-
-[[redirects]]
   from = "/vite/assets/*"
   to = "https://cdn.greasyfork.org.cn/vite/assets/:splat"
   status = 200
 
+# 自定頁面
 [[redirects]]
   from = "/*/search"
   to = "https://cdn.greasyfork.org.cn/search"
+  status = 200
+
+[[redirects]]
+  from = "/page/*"
+  to = "https://cdn.greasyfork.org.cn/page/:splat"
   status = 200
 
 [[redirects]]
@@ -168,6 +167,7 @@
   to = "https://cdn.greasyfork.org.cn/help"
   status = 200
 
+# 初始資源重新導向
 [[redirects]]
   from = "/rails/*"
   to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
@@ -183,11 +183,7 @@
   to = "/404"
   status = 307
 
-[[redirects]]
-  from = "/zh-hans/scripts/by-site/*"
-  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/by-site/:splat"
-  status = 308
-
+# 詳情頁面重新導向
 [[redirects]]
   from = "/ja/scripts/*"
   to = "https://gfork.zh-hk.eu.org/ja/scripts/:splat"
@@ -203,6 +199,7 @@
   to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
   status = 308
 
+# 語言特別處理
 [[redirects]]
   from = "/zh-hant/*"
   to = "/zh-hans/:splat"
@@ -228,6 +225,7 @@
   to = "/zh-hans/:splat"
   status = 308
 
+# 全局空服務
 [[redirects]]
   from = "/*"
   to = "https://cdn.greasyfork.org.cn/404"
