@@ -85,6 +85,32 @@
   to = "/zh-hans"
   status = 308
 
+# 語言特別處理
+[[redirects]]
+  from = "/zh-hant/*"
+  to = "/zh-hans/:splat"
+  status = 308
+
+[[redirects]]
+  from = "/zh-TW/*"
+  to = "/zh-hans/:splat"
+  status = 308
+
+[[redirects]]
+  from = "/zh-CN/*"
+  to = "/zh-hans/:splat"
+  status = 308
+
+[[redirects]]
+  from = "/zh-tw/*"
+  to = "/zh-hans/:splat"
+  status = 308
+
+[[redirects]]
+  from = "/zh-cn/*"
+  to = "/zh-hans/:splat"
+  status = 308
+
 # 靜態
 [[redirects]]
   from = "/robots.txt"
@@ -167,22 +193,6 @@
   to = "https://cdn.greasyfork.org.cn/help"
   status = 200
 
-# 初始資源重新導向
-[[redirects]]
-  from = "/rails/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/scripts/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/*/scripts"
-  to = "/404"
-  status = 307
-
 # 詳情頁面重新導向
 [[redirects]]
   from = "/ja/scripts/*"
@@ -199,31 +209,21 @@
   to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
   status = 308
 
-# 語言特別處理
+# 初始資源重新導向
 [[redirects]]
-  from = "/zh-hant/*"
-  to = "/zh-hans/:splat"
-  status = 308
+  from = "/rails/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
+  status = 200
 
 [[redirects]]
-  from = "/zh-TW/*"
-  to = "/zh-hans/:splat"
-  status = 308
+  from = "/scripts/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  status = 200
 
 [[redirects]]
-  from = "/zh-CN/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-tw/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-cn/*"
-  to = "/zh-hans/:splat"
-  status = 308
+  from = "/*/scripts"
+  to = "/404"
+  status = 307
 
 # 全局空服務
 [[redirects]]
