@@ -20,7 +20,7 @@
 [[redirects]]
   from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
   to = "https://api-edge-sakiko-dispatch-network-aws-cdn.dahi.edu.eu.org/efa18acc-c5b8-480d-bf3f-ee419de809e3"
-  status = 301
+  status = 308
 
 # 特別處理封禁
 [[redirects]]
