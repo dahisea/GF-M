@@ -227,7 +227,13 @@
 
 # 全局空服務
 [[redirects]]
-  from = "/*"
+  from = "/404"
   to = "https://cdn.greasyfork.org.cn/404"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 307
   force = true
