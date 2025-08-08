@@ -206,7 +206,7 @@
 # 初始資源重新導向
 [[redirects]]
   from = "/rails/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
+  to = "https://greasyfork.org/rails/:splat"
   status = 200
 
 [[redirects]]
