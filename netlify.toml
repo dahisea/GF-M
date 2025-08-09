@@ -6,8 +6,13 @@
 
 # 搜尋頁面
 [[redirects]]
+  from = "/lookup"
+  to = "https://cdn.greasyfork.org.cn/page/lookup"
+  status = 200
+
+[[redirects]]
   from = "/s"
-  to = "https://cdn.greasyfork.org.cn/searchw"
+  to = "https://cdn.greasyfork.org.cn/redirect/searchredirect"
   status = 200
 
 # 重新導向頁面下載
@@ -51,7 +56,7 @@
 # 主要頁面
 [[redirects]]
   from = "/zh-hans"
-  to = "https://cdn.greasyfork.org.cn/hans"
+  to = "https://cdn.greasyfork.org.cn/language/hans"
   status = 200
 
 [[redirects]]
@@ -61,7 +66,7 @@
 
 [[redirects]]
   from = "/ja"
-  to = "https://cdn.greasyfork.org.cn/ja"
+  to = "https://cdn.greasyfork.org.cn/language/ja"
   status = 200
 
 [[redirects]]
@@ -71,7 +76,7 @@
 
 [[redirects]]
   from = "/en"
-  to = "https://cdn.greasyfork.org.cn/en"
+  to = "https://cdn.greasyfork.org.cn/language/en"
   status = 200
 
 [[redirects]]
@@ -174,7 +179,7 @@
 # 自定頁面
 [[redirects]]
   from = "/*/search"
-  to = "https://cdn.greasyfork.org.cn/search"
+  to = "https://cdn.greasyfork.org.cn/page/search"
   status = 200
 
 [[redirects]]
@@ -189,7 +194,7 @@
 
 [[redirects]]
   from = "/*/help"
-  to = "https://cdn.greasyfork.org.cn/help"
+  to = "https://cdn.greasyfork.org.cn/page/help"
   status = 200
 
 # 詳情頁面重新導向
