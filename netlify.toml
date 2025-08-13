@@ -28,7 +28,7 @@
 
 # 特別處理封禁
 [[redirects]]
-  from = "/*/discussions*"
+  from = "/*/discussions"
   to = "/404"
   status = 308
 
@@ -36,6 +36,11 @@
   from = "/*/moderator_actions*"
   to = "/404"
   status = 308
+
+[[redirects]]
+  from = "/*/scripts"
+  to = "/404"
+  status = 307
 
 # 用戶子服務
 [[redirects]]
@@ -223,11 +228,6 @@
   from = "/scripts/*"
   to = "https://datan-owhdhhenduxdbidb.zh-tw.eu.org/scripts/:splat"
   status = 200
-
-[[redirects]]
-  from = "/*/scripts"
-  to = "/404"
-  status = 307
 
 # 全局空服務
 [[redirects]]
