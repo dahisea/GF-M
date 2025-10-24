@@ -18,7 +18,7 @@
 # 重新導向頁面下載
 [[redirects]]
   from = "/g"
-  to = "https://cdn.greasyfork.org.cn/redirect/short"
+  to = "https://cdn.greasyfork.org.cn/redirect/download"
   status = 200
 
 [[redirects]]
