@@ -22,6 +22,11 @@
   status = 200
 
 [[redirects]]
+  from = "/d"
+  to = "https://cdn.greasyfork.org.cn/redirect/download"
+  status = 200
+
+[[redirects]]
   from = "/redirect/"
   to = "https://cdn.greasyfork.org.cn/redirect/"
   status = 200
